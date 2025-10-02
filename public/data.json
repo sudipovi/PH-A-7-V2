@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "Customer unable to log in with correct credentials.",
+    "customer": "Paru",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "25/05/1998",
+    "newstatus": ""
+  },
+  {
+    "id": 2,
+    "title": "Payment Failure",
+    "description": "Payment gateway shows error code 502 during checkout.",
+    "customer": "Rahul Sen",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "26/05/1998",
+    "newstatus": ""
+  },
+  {
+    "id": 3,
+    "title": "Slow Loading Dashboard",
+    "description": "Dashboard takes more than 15 seconds to load.",
+    "customer": "Maria Gomez",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "27/05/1998",
+    "newstatus": ""
+  },
+  {
+    "id": 4,
+    "title": "Password Reset Not Working",
+    "description": "Password reset email is not being sent to the user.",
+    "customer": "John Smith",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "28/05/1998",
+    "newstatus": ""
+  },
+  {
+    "id": 5,
+    "title": "App Crash on iOS",
+    "description": "App crashes immediately after launch on iOS 18 devices.",
+    "customer": "Emily Carter",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "29/05/1998",
+    "newstatus": ""
+  },
+  {
+    "id": 6,
+    "title": "Incorrect Invoice",
+    "description": "Customer received an invoice with wrong billing details.",
+    "customer": "Tanvir Ahmed",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "30/05/1998",
+    "newstatus": ""
+  },
+  {
+    "id": 7,
+    "title": "Feature Request: Dark Mode",
+    "description": "Customer requested a dark mode option for the dashboard.",
+    "customer": "Sophia Lee",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "31/05/1998",
+    "newstatus": ""
+  },
+  {
+    "id": 8,
+    "title": "Email Notifications Delayed",
+    "description": "System emails are delayed by up to 2 hours.",
+    "customer": "David Brown",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "01/06/1998",
+    "newstatus": ""
+  },
+  {
+    "id": 9,
+    "title": "Data Sync Error",
+    "description": "User data not syncing across devices.",
+    "customer": "Maya Patel",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "02/06/1998",
+    "newstatus": ""
+  },
+  {
+    "id": 10,
+    "title": "Broken Link on Help Page",
+    "description": "FAQ link on help page redirects to a 404 page.",
+    "customer": "Omar Faruk",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "03/06/1998",
+    "newstatus": ""
+  }
+]
