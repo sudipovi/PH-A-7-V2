@@ -1,10 +1,11 @@
 import React from "react";
 
-const IssueCard = ({ issue }) => {
+const IssueCard = ({ issue, handleIssue }) => {
+  
   return (
     <div>
       <div className="container mx-auto mb-9">
-        <div
+        <div onClick={()=>handleIssue(issue)}
           className={`rounded-md shadow-lg md:h-[110px] md:w-[500px] w-[400px] p-3 `}
         >
           <div className="flex justify-between">

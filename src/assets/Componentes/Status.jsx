@@ -1,6 +1,6 @@
 import React from "react";
 
-const States = ({ issueTotal }) => {
+const States = ({ issueTotal,totalResolved }) => {
   return (
     <div className="md:flex md:justify-between flex flex-col">
       <div className="container mx-auto my-9 grid grid-cols-2 gap-1 md:gap-10">
@@ -11,7 +11,7 @@ const States = ({ issueTotal }) => {
 
         <div className="rounded-md bg-green-500 h-[200px] text-white flex flex-col justify-center items-center">
           <p className="text-3xl mb-3">Resolved</p>
-          <p className="text-5xl font-bold">0</p>
+          <p className="text-5xl font-bold">{totalResolved}</p>
         </div>
       </div>
     </div>
