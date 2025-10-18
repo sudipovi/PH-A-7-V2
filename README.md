@@ -21,4 +21,13 @@ How can you share state between components in React?
 
 How is event handling done in React?
 
--
+- We use onClick for event Handling in React. For example:
+
+    <button onClick={handleClick}>Click Me</button>
+
+    const handleClick = () => {
+        console.log('Button clicked!');
+      };
+
+Like this we can create a function in react and use it in different component.
+
